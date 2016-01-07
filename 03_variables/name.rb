@@ -1,2 +1,7 @@
 puts "Type your name: "
-puts "Hello, #{gets.chomp}"
+name = gets.chomp
+puts "Hello, #{name}"
+
+10.times do |n|
+  puts name  
+end
