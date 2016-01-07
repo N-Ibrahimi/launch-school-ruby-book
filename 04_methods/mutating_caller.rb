@@ -20,5 +20,5 @@ def mutate(array)
 end
 
 p "Array before mutate: #{a}"
-mutate(a)
+p mutate(a)
 p "Array after mutate:  #{a}"
