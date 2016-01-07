@@ -1,13 +1,14 @@
 # What will the following code print to the screen?
 
-# this method prints nothing
+# this method initially prints nothing
 # the return statement exits the method with no
 # return value specified
 
+# after modification it will print "Yippeee!!!!"
+
 def scream(words)
   words = words + "!!!!"
-  return
-  puts words
+  return words
 end
 
-scream("Yippeee")
+puts scream("Yippeee")
