@@ -1,5 +1,6 @@
 # conditional_loop.rb
 
+puts "count by even numbers"
 i = 0
 loop do
   i += 2
@@ -7,5 +8,14 @@ loop do
   if i == 10
     break
   end
+end
+
+puts "now count by odd number"
+x = 0
+while x <= 10
+  if x.odd?
+    puts x
+  end
+  x += 1
 end
 
