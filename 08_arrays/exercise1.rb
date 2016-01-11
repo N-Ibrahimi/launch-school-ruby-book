@@ -8,5 +8,3 @@ else
   puts "the number is not in the array"
 end
 
-# new line
-# this is another new line
